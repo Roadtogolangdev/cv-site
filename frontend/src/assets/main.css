@@ -1,15 +1,26 @@
 @import './base.css';
 
-#app {
-  max-width: 100%;
-  padding-top: 10px;
- 
 
+
+
+#app {
+  max-width: 80vw;
+  padding-top: 10px;
+  margin: 0 auto;  
+  z-index: 1;
   flex-direction: column;
+  min-height: 100vh;
+  
 }
 
-@font-face {
-  font-family: 'NotoSans';
+@font-face {  
+  font-family: 'ChakraPetch';
+  src: url('@/assets/fonts/ChakraPetch-SemiBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {  
+  font-family: 'Noto Sans';
   src: url('@/assets/fonts/NotoSans.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
