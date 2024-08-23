@@ -1,15 +1,18 @@
 <script setup>
-
+  
 </script>
 <template>
   <div class="welcome-section">
     <div class="card">
       <h1>Верещака Артем</h1>
-      <h3>Golang Dev</h3>
-      <label class="switch">
-									<input type="checkbox">
+      <h3>Golang Developer</h3>
+      <div class="card-checkbox" ><label id="card-checkbox">
+									<input type="checkbox" id="one" checked disabled>
 									<div class="slider"></div>
+                  
 								</label>
+                <p>В поиске работы!</p></div>
+      
     </div>
     <p>
       Я решил сменить карьеру и окунуться в мир IT, чтобы заниматься тем, что меня действительно увлекает — программированием.
@@ -27,7 +30,8 @@
  display: flex;
  flex-direction: column;
  align-items: flex-start;
-}
+  margin: 10px 0 25px 0;
+} 
 
 .card h1 {
   margin: 0;
@@ -37,8 +41,9 @@
 }
 
 .card h3 {
- 
+  margin: 5px 0;
   font-size: 18px;
+  font-weight: 600;
 }
 
 input[type="checkbox"] {
@@ -60,8 +65,17 @@ p {
 
 
 
-
-.switch {
+.card-checkbox {
+  display: flex;
+  align-items: center;
+ 
+}
+.card-checkbox p {
+    font-family: 'Noto Sans', Courier, monospace;
+    margin-left: 10px;
+  
+}
+#card-checkbox {
   display: inline-block;
   height: 1.9em;
   position: relative;
@@ -69,7 +83,7 @@ p {
   width: 3.5em;
 }
 
-.switch input {
+#card-checkbox input {
   display: none;
   margin: 0;
 }

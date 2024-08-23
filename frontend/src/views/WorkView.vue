@@ -1,15 +1,12 @@
 <template>
-  <div class="">
-    <h1>This is an work page</h1>
+  <div class="work">
+    Заполнение этой страницы еще в процесссе, но вы можете ознакомится с моими работами на моем <a href="https://github.com/Roadtogolangdev">Github</a> аккаунте
   </div>
 </template>
 
 <style>
-@media (min-width: 1024px) {
-  .qwe {
-    
-    display: flex;
-    align-items: center;
-  }
+.work {
+ font-size: 22px;
 }
+ 
 </style>
