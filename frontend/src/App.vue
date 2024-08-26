@@ -7,12 +7,9 @@ import FooterBar from './components/Footer.vue'
 
 </script>
 
-<template>
-  
+<template> 
   <header >
-    
       <HelloWorld msg="Hello!" />
-      
       <nav>
         <RouterLink to="/">main</RouterLink>
         <RouterLink to="/about">about</RouterLink>
@@ -55,10 +52,10 @@ a + a{
 }
 
 a:hover {
-    border-bottom: 1px solid #333;
+    border-bottom: 1px solid #dd95ff;
 }
 .router-link-active {
-    border-bottom: 1px solid #e20000;
+    border-bottom: 1px solid #5700fa;
 }
 
 .content {
